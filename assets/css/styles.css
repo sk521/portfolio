@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono&display=swap');
 
 body {
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: white;
+}
+
+.menu .icons svg {
+  fill: #3A8370;
 }
