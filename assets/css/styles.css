@@ -307,6 +307,24 @@ img {
   bottom: 0;
   background-color: var(--first-color);
   height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+
+.skills__js {
+  width: 80%;
+}
+
+.skills__react {
+  width: 80%;
+}
+
+.skills__redux {
+  width: 75%;
+}
+
+.skills__img {
+  border-radius: .5rem;
 }
 
 /* .menu .icons svg {
