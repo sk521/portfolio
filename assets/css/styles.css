@@ -343,6 +343,15 @@ img {
   overflow: hidden;
 }
 
+.project__img img {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.project__img img:hover {
+  transform: scale(1.1);
+}
+
 /* .menu .icons svg {
   fill: #3A8370;
 } */
