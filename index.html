@@ -7,29 +7,58 @@
   <link rel="icon" type="image/png" href="https://img.icons8.com/officexs/16/000000/south-korea.png">
   <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
 
+  <!--================ UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
   <title>Sam Kwon</title>
-  <script src="https://kit.fontawesome.com/53aa1d1e43.js" crossorigin="anonymous"></script>
-  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
-  <header class="l-header">
-    <nav class="nav bd-grid">
-      <div>
-        <a href="#" class="nav__logo">Samuel</a>
-      </div>
+  <!--===================== HEADER ===================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Samuel</a>
 
       <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">
+              <i class="uil uil-estate"></i> Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">
+              <i class="uil uil-briefcase-alt"></i>Services
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery"></i>Portfolio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message"></i>Contactme
+            </a>
+          </li>
         </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
       </div>
 
-      <div class="nav__toggle" id="nav-toggle">
-        <i class='bx bx-menu'></i>
+      <div class="nav__btns">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
       </div>
     </nav>
   </header>
@@ -137,21 +166,13 @@
       </div>
     </section>
 
+    <!--===== SKILLS =======-->
+    <section class="contact section" id="contact">
+      <section class="section-title">Contact</section>
+    </section>
+
   </main>
-  <!-- <section id="main">
-    <nav>
-      <ul class="menu icons">
-        <li>
-          <a href="#">
-            <img src="./assets/images/github-icon.svg" alt="Github"/>
-          </a>
-        </li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Email</a></li>
-      </ul>
-    </nav>
-  </section> -->
+
 
   <!-- SCROLL REVEAL -->
   <script src="https://unpkg.com/scrollreveal"></script>
