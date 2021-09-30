@@ -332,3 +332,21 @@ img {
   display: inline-flex;
   align-items: center;
 }
+
+/*================= ABOUT ===================*/
+.about__img {
+  width: 200px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about__description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about__buttons {
+  display: flex;
+  justify-content: center;
+}
