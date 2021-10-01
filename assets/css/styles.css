@@ -381,3 +381,13 @@ img {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
+
+.skill__arrow {
+  margin-left: auto;
+  transition: .4s;
+}
+
+.skills__title {
+  display: flex;
+  justify-content: space-between;
+}
