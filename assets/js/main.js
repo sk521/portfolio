@@ -104,3 +104,15 @@ const scrollActive = () => {
   })
 }
 window.addEventListener('scroll', scrollActive);
+
+/*========= CHANGE BACKGROUND HEADER ===============*/
+const scrollHeader = () => {
+  const nav = document.getElementById('header');
+
+  if (scrollY >= 80) {
+    nav.classList.add('scroll-header')
+  } else {
+    nav.classList.remove('scroll-header');
+  }
+}
+window.addEventListener('scroll', scrollHeader);
