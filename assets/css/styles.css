@@ -448,7 +448,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-.skills__bar,
+/* .skills__bar,
 .skills__percentage {
   height: 5px;
   border-radius: .25rem;
@@ -461,7 +461,7 @@ img {
 .skills__percentage {
   display: block;
   background-color: var(--first-color);
-}
+} */
 
 .skills__html {
   width: 90%;
