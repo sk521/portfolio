@@ -387,8 +387,9 @@ img {
 }
 
 .about__description {
-  text-align: center;
+  text-align: left;
   margin-bottom: var(--mb-2-5);
+  padding-left: 0.5rem;
 }
 
 .about__buttons {
